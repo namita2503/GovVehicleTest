@@ -1,0 +1,10 @@
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:40 - ==========================BEGIN TEST SCENARIO==========================
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:54 - TEST SCENARIO : Invalid system directory
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:56 - TEST INPUTS ARE:
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:57 - >> Configured system directory is : testdata_Test
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:58 - >> Configured minimum files in system directory is : 10
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:59 - >> Configured mime types are : [text/csv, application/excel]
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:61 - TEST RESULTS:
+2018-08-05 09:17:40 ERROR SystemDirectory:54 - Failed to scan directory due to directory not found
+2018-08-05 09:17:40 ERROR SystemDirectory:71 - No file found to print
+2018-08-05 09:17:40 INFO  SystemDirectoryTests:50 - ==========================END TEST SCENARIO==========================

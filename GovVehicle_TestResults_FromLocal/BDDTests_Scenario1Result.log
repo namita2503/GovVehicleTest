@@ -1,0 +1,32 @@
+2018-08-05 09:08:05 INFO  SystemDirectory:27 - Total files found : 10
+2018-08-05 09:08:05 INFO  SystemDirectory:40 - Given vehicle data file name found
+2018-08-05 09:08:05 INFO  SystemDirectory:49 - Total files ignored due to other mime type: 7
+2018-08-05 09:08:05 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 1 (OUT OF 3) DETAIL:
+2018-08-05 09:08:05 INFO  SystemDirectory:64 - >> File name: Test2CSV.csv
+2018-08-05 09:08:05 INFO  SystemDirectory:65 - >> File mime type: text/csv
+2018-08-05 09:08:05 INFO  SystemDirectory:66 - >> File size (bytes): 801
+2018-08-05 09:08:05 INFO  SystemDirectory:67 - >> File extension: csv
+2018-08-05 09:08:05 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 2 (OUT OF 3) DETAIL:
+2018-08-05 09:08:05 INFO  SystemDirectory:64 - >> File name: VehicleRegistration.csv
+2018-08-05 09:08:05 INFO  SystemDirectory:65 - >> File mime type: text/csv
+2018-08-05 09:08:05 INFO  SystemDirectory:66 - >> File size (bytes): 93
+2018-08-05 09:08:05 INFO  SystemDirectory:67 - >> File extension: csv
+2018-08-05 09:08:05 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 3 (OUT OF 3) DETAIL:
+2018-08-05 09:08:05 INFO  SystemDirectory:64 - >> File name: VehicleRegistration.xlsx
+2018-08-05 09:08:05 INFO  SystemDirectory:65 - >> File mime type: application/excel
+2018-08-05 09:08:05 INFO  SystemDirectory:66 - >> File size (bytes): 8769
+2018-08-05 09:08:05 INFO  SystemDirectory:67 - >> File extension: xlsx
+2018-08-05 09:08:12 INFO  DVLAVehicleInformation:15 - Navigated url : https://www.gov.uk/get-vehicle-information-from-dvla
+2018-08-05 09:08:12 INFO  DVLAVehicleInformation:17 - Clicked StartNow
+2018-08-05 09:08:16 INFO  VehicleEnquiry:14 - Given vehicle registration number is : SK06 XPU
+2018-08-05 09:08:17 INFO  VehicleEnquiry:16 - Clicked continue to go Confirm Vehicle page
+2018-08-05 09:08:17 INFO  ConfirmVehicle:14 - Given vehicle registration details are matched : 
+2018-08-05 09:08:17 INFO  ConfirmVehicle:15 - > Vehicle number : SK06 XPU
+2018-08-05 09:08:17 INFO  ConfirmVehicle:16 - > Make : LAND ROVER
+2018-08-05 09:08:17 INFO  ConfirmVehicle:17 - > Colour : BLACK
+2018-08-05 09:08:17 INFO  ConfirmVehicle:20 - Clicked continue to go View Vehicle page
+2018-08-05 09:08:17 INFO  ViewVehicle:15 - Validated vehicle details are:
+2018-08-05 09:08:17 INFO  ViewVehicle:16 - > Vehicle number : SK06 XPU
+2018-08-05 09:08:17 INFO  ViewVehicle:17 - > Make : LAND ROVER
+2018-08-05 09:08:17 INFO  ViewVehicle:18 - > Colour : BLACK
+2018-08-05 09:08:17 INFO  ViewVehicle:19 - > Fuel type : DIESEL

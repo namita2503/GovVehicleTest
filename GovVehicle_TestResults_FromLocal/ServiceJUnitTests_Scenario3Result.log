@@ -1,0 +1,11 @@
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:40 - ==========================BEGIN TEST SCENARIO==========================
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:54 - TEST SCENARIO : File are less than configured minimum files in Directory
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:56 - TEST INPUTS ARE:
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:57 - >> Configured system directory is : src/test/resources/testdata
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:58 - >> Configured minimum files in system directory is : 1010
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:59 - >> Configured mime types are : [text/csv, application/excel]
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:61 - TEST RESULTS:
+2018-08-05 09:18:49 INFO  SystemDirectory:27 - Total files found : 10
+2018-08-05 09:18:49 ERROR SystemDirectory:51 - Failed to scan directory due to files (10) are less than configured size
+2018-08-05 09:18:49 ERROR SystemDirectory:71 - No file found to print
+2018-08-05 09:18:49 INFO  SystemDirectoryTests:50 - ==========================END TEST SCENARIO==========================

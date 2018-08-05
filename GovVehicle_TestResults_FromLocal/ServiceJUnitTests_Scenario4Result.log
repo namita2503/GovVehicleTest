@@ -1,0 +1,29 @@
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:44 - ==========================BEGIN TEST SCENARIO==========================
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:58 - TEST SCENARIO : Reteriving test data from excel file
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:60 - TEST INPUTS ARE:
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:61 - >> Configured system directory is : src/test/resources/testdata
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:62 - >> Configured minimum files in system directory is : 10
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:63 - >> Configured mime types are : [text/csv, application/excel]
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:64 - >> Configured excel data source : VehicleRegistration.xlsx
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:65 - >> Configured csv data source : VehicleRegistration.csv
+2018-08-05 09:25:45 INFO  SystemDirectoryTests:67 - TEST RESULTS:
+2018-08-05 09:25:45 INFO  SystemDirectory:27 - Total files found : 10
+2018-08-05 09:25:45 INFO  SystemDirectory:40 - Given vehicle data file name found
+2018-08-05 09:25:45 INFO  SystemDirectory:49 - Total files ignored due to other mime type: 7
+2018-08-05 09:25:46 INFO  SystemDirectoryTests:94 - Number of vehicles data found : 2
+2018-08-05 09:25:46 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 1 (OUT OF 3) DETAIL:
+2018-08-05 09:25:46 INFO  SystemDirectory:64 - >> File name: Test2CSV.csv
+2018-08-05 09:25:46 INFO  SystemDirectory:65 - >> File mime type: text/csv
+2018-08-05 09:25:46 INFO  SystemDirectory:66 - >> File size (bytes): 801
+2018-08-05 09:25:46 INFO  SystemDirectory:67 - >> File extension: csv
+2018-08-05 09:25:46 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 2 (OUT OF 3) DETAIL:
+2018-08-05 09:25:46 INFO  SystemDirectory:64 - >> File name: VehicleRegistration.csv
+2018-08-05 09:25:46 INFO  SystemDirectory:65 - >> File mime type: text/csv
+2018-08-05 09:25:46 INFO  SystemDirectory:66 - >> File size (bytes): 93
+2018-08-05 09:25:46 INFO  SystemDirectory:67 - >> File extension: csv
+2018-08-05 09:25:46 INFO  SystemDirectory:63 - PRINTING FILE NUMBER 3 (OUT OF 3) DETAIL:
+2018-08-05 09:25:46 INFO  SystemDirectory:64 - >> File name: VehicleRegistration.xlsx
+2018-08-05 09:25:46 INFO  SystemDirectory:65 - >> File mime type: application/excel
+2018-08-05 09:25:46 INFO  SystemDirectory:66 - >> File size (bytes): 8769
+2018-08-05 09:25:46 INFO  SystemDirectory:67 - >> File extension: xlsx
+2018-08-05 09:25:46 INFO  SystemDirectoryTests:54 - ==========================END TEST SCENARIO==========================
