@@ -13,6 +13,6 @@ How to run tests on local machine:
 
 2. Import this maven project in any JAVA IDE
 
-3. Run Junit tests (of System Directory service layer) from:
+3. Run Junit tests (of System Directory service layer) from: '\GovVehicleVerification\src\test\java\unittests\SystemDirectoryTests.java'
 
-4. Run BDD(Selenium/Cucumber) tests (of Gov Vehicle website) from:
+4. Run BDD(Selenium/Cucumber) tests (of Gov Vehicle website) from: '\GovVehicleVerification\src\test\resources\vehicleenquiry\gov\uk\ValidateVehicleData.feature'
