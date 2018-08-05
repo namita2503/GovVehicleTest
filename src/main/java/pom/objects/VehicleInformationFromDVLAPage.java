@@ -17,6 +17,10 @@ public class VehicleInformationFromDVLAPage extends ExtendedSeleniumAPI {
     }
 
     public void navigateURL(String url) {
+        if (getDriver()==null) {
+            reopenDriver();
+            wait = getWaitTime();
+        }
         getDriver().navigate().to(url);
     }
 

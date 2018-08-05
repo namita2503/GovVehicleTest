@@ -72,8 +72,10 @@ public class FileUtil {
     }
 
     public static String getFileMimeType(File file){
-        if (file.isFile()) {
-            return reteriveMimeType(file);
+        if (file!=null) {
+            if (file.isFile()) {
+                return reteriveMimeType(file);
+            }
         }
         logger.debug("File is invalid to get mime type");
         return null;

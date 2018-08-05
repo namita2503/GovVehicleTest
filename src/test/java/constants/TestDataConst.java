@@ -9,4 +9,6 @@ public class TestDataConst {
     public static final int INVALID_MINIMUM_FILES_NUMBER = ReadConfig.getInstance().getInvalidValueForMinimumFiles();
     public static final String[] SUPPORTED_MIME_TYPES = ReadConfig.getInstance().getMimeTypes();
     public static final String VEHICLE_DVLA_URL = ReadConfig.getInstance().getDVLAVehicleInformationUrl();
+    public static final String EXCEL_DATASOURCE = ReadConfig.getInstance().getExcelDataSource();
+    public static final String CSV_DATASOURCE = ReadConfig.getInstance().getCsvDataSource();
 }

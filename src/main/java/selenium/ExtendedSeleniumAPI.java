@@ -36,9 +36,9 @@ public class ExtendedSeleniumAPI {
         }
     }
 
-    public void resetDriver() {
-        driver.close();
+    public void reopenDriver() {
         driver = new FirefoxDriver();
+        wait = new WebDriverWait(driver, 100);
     }
 
     public void click(WebPage element) {

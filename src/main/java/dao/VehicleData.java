@@ -37,5 +37,4 @@ public class VehicleData {
     public void setFuelType(String fuelType) {
         this.fuelType = fuelType;
     }
-
 }

@@ -1,8 +1,6 @@
 package config;
 
 import org.apache.log4j.Logger;
-import util.FileUtil;
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,6 +20,9 @@ public class ReadConfig {
 
     private String vehicleInformationUrl;
     private InputStream inputStream;
+
+    private String excelDataSource;
+    private String csvDataSource;
 
     private static ReadConfig instance;
 
@@ -53,6 +54,8 @@ public class ReadConfig {
             invalidValueForMinimumFiles = validMinimumFilesInDirectory + Integer.parseInt(config.getProperty("Add.Value.In.Min.Files"));
             mimeTypes = config.getProperty("Mime.Type").split(",");
             vehicleInformationUrl = config.getProperty("DVLA.Vehicle.Information.URL");
+            excelDataSource = config.getProperty("Excel.DataSource");
+            csvDataSource = config.getProperty("CSV.DataSource");
         } catch (Exception e) {
             logger.error("Exception : " + e);
         } finally {
@@ -86,5 +89,13 @@ public class ReadConfig {
 
     public String getDVLAVehicleInformationUrl(){
         return vehicleInformationUrl;
+    }
+
+    public String getExcelDataSource(){
+        return excelDataSource;
+    }
+
+    public String getCsvDataSource(){
+        return csvDataSource;
     }
 }

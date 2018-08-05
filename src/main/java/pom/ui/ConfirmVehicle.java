@@ -19,7 +19,11 @@ public class ConfirmVehicle {
                     confirmVehicle.clickContinue();
                     logger.info("Clicked continue to go View Vehicle page");
                     return new ViewVehicle();
+                } else {
+                    logger.error("Vehicle Make or Colour didn't match");
                 }
+            } else {
+                logger.error("Vehicle registration number didn't match");
             }
         } catch (Exception e) {
             logger.error("Confirm Vehicle Exception : " + e);

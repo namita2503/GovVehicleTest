@@ -12,15 +12,21 @@ public class ViewVehicle {
             if (viewVehicle.isRegistrationNumberCorrect(vehicleNumber)) {
                 if ((viewVehicle.isMakeCorrect(make)) && (viewVehicle.isColourCorrect(colour))) {
                     if ((viewVehicle.isFuelTypeCorrect(fuelType))) {
-                        logger.info("Validated vehicle details :");
+                        logger.info("Validated vehicle details are:");
                         logger.info("> Vehicle number : " + vehicleNumber);
                         logger.info("> Make : " + make);
                         logger.info("> Colour : " + colour);
                         logger.info("> Fuel type : " + fuelType);
                         viewVehicle.quitDriver();
                         return true;
+                    } else {
+                        logger.error("Vehicle Fuel type didn't match");
                     }
+                } else {
+                    logger.error("Vehicle Make or Colour didn't match");
                 }
+            } else {
+                logger.error("Vehicle Registration number didn't match");
             }
         } catch (Exception e) {
             logger.error("View Vehicle Exception : " + e);

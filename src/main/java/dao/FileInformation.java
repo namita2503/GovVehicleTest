@@ -6,7 +6,6 @@ public class FileInformation {
     private long fileSize;
     private String fileExtension;
 
-
     public void setFileName(String fileName) {
         this.fileName = fileName;
     }
