@@ -1,12 +1,13 @@
 # GovVehicleTest
-Location of Test data: '\GovVehicleVerification\src\test\resources\testdata'
- >> Default test data localtion is given for scanning system directory
- >> VehicleRegistration.xlsx OR VehicleRegistration.csv files are having list of vehicle data
- >> To change test data, please go to config.properties and modify as per need
- 
-Location of Test Results and logs: '\GovVehicle_TestResults_FromLocal'
 
-How to run tests on local machine:
+## Location of Test data: '\GovVehicleVerification\src\test\resources\testdata'
+ 1. Default test data localtion is given for scanning system directory
+ 2. VehicleRegistration.xlsx OR VehicleRegistration.csv files are having list of vehicle data
+ 3. To change test data, please go to config.properties and modify as per need
+ 
+## Location of Test Results and logs: '\GovVehicle_TestResults_FromLocal'
+
+## How to run tests on local machine:
 1. Clone below repo:
 >>HTTPS Link: https://github.com/namita2503/GovVehicleTest.git
 >>SSH Link: git@github.com:namita2503/GovVehicleTest.git
